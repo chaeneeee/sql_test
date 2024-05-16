@@ -1,0 +1,16 @@
+L{Field=id, Type=int, Null=NO, Extra=auto_increment, Default=null, Key=PRI}
+F{Field=name, Type=varchar(255), Null=NO, Extra=, Default=null, Key=}
+Ù[{Field=id, Type=int, Null=NO, Extra=auto_increment, Default=null, Key=PRI}, {Field=contentId, Type=int, Null=NO, Extra=, Default=null, Key=MUL}, {Field=categoryId, Type=int, Null=NO, Extra=, Default=null, Key=MUL}]
+L{Field=id, Type=int, Null=NO, Extra=auto_increment, Default=null, Key=PRI}
+E{Field=contentId, Type=int, Null=NO, Extra=, Default=null, Key=MUL}
+F{Field=categoryId, Type=int, Null=NO, Extra=, Default=null, Key=MUL}
+L{Field=id, Type=int, Null=NO, Extra=auto_increment, Default=null, Key=PRI}
+F{Field=name, Type=varchar(255), Null=NO, Extra=, Default=null, Key=}
+L{Field=id, Type=int, Null=NO, Extra=auto_increment, Default=null, Key=PRI}
+F{Field=name, Type=varchar(255), Null=NO, Extra=, Default=null, Key=}
+G{Field=email, Type=varchar(255), Null=NO, Extra=, Default=null, Key=}
+C{Field=roleId, Type=int, Null=YES, Extra=, Default=null, Key=MUL}
+{name=java, id=1}
+{name=spring, id=2}
+{name=query, id=3}
+[{name=java}, {name=query}]
